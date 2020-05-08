@@ -24,5 +24,5 @@
 
 You are logged in
  <br />
- <app-root></app-root>
+ <app-root>aaaa</app-root>
  <script type="text/javascript" src="/js/app.js"></script>

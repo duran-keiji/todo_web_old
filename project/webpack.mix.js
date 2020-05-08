@@ -11,10 +11,10 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js(['public/dist/runtime.js',
- 'public/dist/styles.js',
- 'public/dist/polyfills.js',
- 'public/dist/vendor.js',
- 'public/dist/main.js'
+mix.js(['public/dist/runtime-es2015.js',
+ 'public/dist/styles-es2015.js',
+ 'public/dist/polyfills-es2015.js',
+ 'public/dist/vendor-es2015.js',
+ 'public/dist/main-es2015.js'
  ], 'public/js/app.js')
     .sass('resources/sass/app.scss', 'public/css');
